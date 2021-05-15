@@ -16,9 +16,38 @@ html{
     font-size: 1.2rem;
     background: rgb(15, 81, 224);
     text-transform: uppercase;
+    display: none;
 }
-.btn:hover{
+.btn2{
+    text-decoration: none;
+    padding: .5em 1em;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    background: rgb(15, 81, 224);
+    text-transform: uppercase;
+}
+
+.btn:hover , .btn2:hover{
     background: rgb(13, 69, 190);
+}
+
+.dami-btn{
+    text-decoration: none;
+    padding: .5em 1em;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    background: rgb(11, 59, 161);
+    text-transform: uppercase; 
+}
+
+footer input[type = 'checkbox']:checked ~ .btn{
+    display: flex;
+}
+
+footer input[type = 'checkbox']:checked ~ .dami-btn{
+    display: none;
 }
 
 .header{
@@ -29,7 +58,7 @@ html{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -59,8 +88,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     flex-direction: column;
+    margin-top: 70px;
 }
 
 .main .box{
@@ -145,6 +174,6 @@ footer{
     margin-left: 5px;
 }
 
-#b1,#b3{
+#b2,#b3{
     display: none;
 }

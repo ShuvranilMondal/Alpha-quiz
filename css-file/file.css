@@ -55,9 +55,6 @@ footer input[type = 'checkbox']:checked ~ .dami-btn{
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -101,7 +98,8 @@ footer input[type = 'checkbox']:checked ~ .dami-btn{
 .navbar{
     display: flex;
     align-items: center;
-    height: 40px;
+    min-height: 40px;
+    height: auto;
     width: 100%;
     background: rgb(15, 81, 224);
     padding-left: 10px;
@@ -149,11 +147,12 @@ footer{
     font-size: 2rem;
 }
 #b2 .navbar{
+    min-height: 40px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 #b2 ul{
@@ -178,6 +177,12 @@ footer{
     color: white;
     text-transform: capitalize;
     font-size:1.5rem;
+}
+#b2 #timmer{
+    margin-left: 10px;
+    background-color: yellow;
+    color: black;
+    padding: .2em .4em;
 }
 
 #b2,#b3{

@@ -1,0 +1,11 @@
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header i{
+        margin-bottom: 10px;
+    }
+}

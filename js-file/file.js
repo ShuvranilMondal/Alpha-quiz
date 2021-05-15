@@ -1,9 +1,10 @@
 let subBtn = document.getElementById('sub-btn')
 let box1 = document.getElementById('b1')
 let box2 = document.getElementById('b2')
+let box3 = document.getElementById('b3')
 let timmer = document.getElementById('timmer')
 
-let min = 4
+let min = 1
 let se = 60
 let minute = 0
 let second = 0
@@ -16,6 +17,12 @@ subBtn.addEventListener('click',()=>{
         se = se - 1
         if(min == 0 && se == 0){
             clearInterval(myvar)
+            timmer.style.display = 'none'
+            alert('Time UP!!')
+            setTimeout(() => {
+                box2.style.display = 'none'
+                box3.style.display = 'grid'
+            }, 2000);
         }
         if(se == 0){
             se = 60

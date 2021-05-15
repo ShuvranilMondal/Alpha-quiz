@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: .5em 1em;
+    color: white;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    background: rgb(15, 81, 224);
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: rgb(13, 69, 190);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.header i{
+    font-size: 4rem;
+    text-align: left;
+    margin-right: 10px;
+    color: rgb(15, 81, 224);
+}
+
+.header h1{
+    font-size: 4rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* ////////////////////// box ////////////////// */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.main .box{
+    width: 90%;
+    height: auto;
+    border: 1px solid blue;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: rgb(15, 81, 224);
+    padding-left: 10px;
+}
+
+#b1 .navbar h3{
+    color: white;
+}
+
+#b1 .list-menu{
+    padding: 20px 50px;
+}
+
+#b1 .list-menu ul li{
+    list-style:decimal;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.356);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#b1 footer input{
+    width: 30px;
+}
+#b1 footer label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+
+/* ///////////////// box 2 ///////////// */
+
+
+#b2 h3{
+    color: white;
+    font-size: 2rem;
+}
+#b2 .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#b2 ul{
+    padding: 30px 20px;
+}
+
+#b2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#b2 ul li:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+#b2 ul li label{
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+#b1,#b3{
+    display: none;
+}

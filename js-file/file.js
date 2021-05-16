@@ -22,6 +22,14 @@ subBtn.addEventListener('click',()=>{
             setTimeout(() => {
                 box2.style.display = 'none'
                 box3.style.display = 'grid'
+                marks.innerHTML =`your score is = ${score}/${ques.length}`
+                if(score > 2){
+                    pass_fail.innerHTML = `congratulations you are qualified !!`
+                }
+                else{
+                    pass_fail.innerHTML = `sorry you are qualified !!`
+                    pass_fail.style.color = 'red'
+                }
             }, 2000);
         }
         if(se == 0){

@@ -35,8 +35,8 @@ let ques = [
         question: 'Q5: What is the full form of DOM?',
         a: 'doucement object model',
         b: 'doucement object material ',
-        b: 'door object model',
-        c: 'door object maintain',
+        c: 'door object model',
+        d: 'door object maintain',
         ans: 'ans1'
     }
 ]
@@ -96,7 +96,7 @@ submitQ.addEventListener('click',()=>{
         box_2.style.display = 'none'
         box_3.style.display = 'grid'
         marks.innerHTML =`your score is = ${score}/${ques.length}`
-        persent.innerHTML = `your parcentage is = ${(2/ques.length)*100}%`
+        persent.innerHTML = `your parcentage is = ${(score/ques.length)*100}%`
         if(score > 2){
             pass_fail.innerHTML = `congratulations you are qualified !!`
         }

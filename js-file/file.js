@@ -23,11 +23,12 @@ subBtn.addEventListener('click',()=>{
                 box2.style.display = 'none'
                 box3.style.display = 'grid'
                 marks.innerHTML =`your score is = ${score}/${ques.length}`
+                persent.innerHTML = `your parcentage is = ${(score/ques.length)*100}%`
                 if(score > 2){
                     pass_fail.innerHTML = `congratulations you are qualified !!`
                 }
                 else{
-                    pass_fail.innerHTML = `sorry you are qualified !!`
+                    pass_fail.innerHTML = `sorry you are not qualified !!`
                     pass_fail.style.color = 'red'
                 }
             }, 2000);

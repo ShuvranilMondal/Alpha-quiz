@@ -7,4 +7,4 @@ Alpha quiz system is a quiz-based game. similar to different online-based exam v
 ![{0BE525AF-214C-437E-83F8-A7ABF67D7AA9} png](https://user-images.githubusercontent.com/70909882/118395107-45dd9100-b666-11eb-8d3d-db2dc0bc24eb.jpg)
 
 
-![{0719066E-6023-42D3-B99A-89FE0247CA9A} png](https://user-images.githubusercontent.com/70909882/118395108-47a75480-b666-11eb-8b7e-01d8ee0337ec.jpg)
+![{6C873019-1BA6-4D30-B6AE-E63FAA6F11D5} png](https://user-images.githubusercontent.com/70909882/118395377-b507b500-b667-11eb-8677-33ac3b058356.jpg)

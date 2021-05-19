@@ -52,3 +52,8 @@ subBtn.addEventListener('click',()=>{
     }, 1000);
 
 })
+
+let back = document.getElementById('back')
+back.addEventListener('click',()=>{
+    location.reload()
+})
